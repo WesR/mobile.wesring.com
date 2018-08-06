@@ -1,0 +1,70 @@
+html, body {
+	height: 100%;
+	background-color: #292C33;
+	overflow-x: hidden;
+	/*background-image: url("/assets/images/bg-compressed.jpg");*/
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+	color: white;
+}
+
+.light-text, .footer {
+	color: #cfd2da;
+}
+
+.footer:hover {
+	color: #106382;
+	text-decoration: none;
+}
+
+a {
+	color: #1997c6;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+a:hover {
+	color: #106382;
+	text-decoration: none;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+modal {
+	z-index: 100;
+}
+
+.parallax {
+	background-image: url("./../images/APC_0381.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.semiTransparent {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.center-about {
+	margin: auto;
+	width: 40%;
+	margin-top: 3rem;
+	margin-bottom: 5rem;
+}
+
+.center {
+	transform: translateY(150%);
+	margin: auto;
+	text-align: center;
+	width: 40%;
+	padding: 10px;
+}
